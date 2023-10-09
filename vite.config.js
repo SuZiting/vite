@@ -5,5 +5,4 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   history: createWebHistory('/learn/'),
   plugins: [vue()],
-  base: '/learn/'
 })
